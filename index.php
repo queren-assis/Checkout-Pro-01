@@ -16,6 +16,15 @@ $item->unit_price = 10.00;
 $preference->items = array($item);
 $preference->external_reference = 'Pedido 1';
 
+$preference->payment_methods = array(
+	"excluded_payment_methods" => array(
+	  array("id" => "visa")
+	),
+	
+	"installments" => 6
+  );
+  // ...
+
 $preference->save();
 // echo $preference->id;
 ?>
