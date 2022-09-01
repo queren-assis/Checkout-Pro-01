@@ -44,7 +44,7 @@ $preference->save();
 			<script src="https://sdk.mercadopago.com/js/v2"></script>
 			<script>
 				// Adicione as credenciais do SDK
-				const mp = new MercadoPago('APP_USR-9c606bed-e792-4c67-bf87-48f6d85ce88f', {
+				const mp = new MercadoPago('APP_USR-50d93348-75fd-499d-b0e1-2dc0a035da86', {
 					locale: 'pt-BR'
 				});
 
