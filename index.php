@@ -3,7 +3,7 @@
 require __DIR__ .  '/vendor/autoload.php';
 
 // Configura credenciais
-MercadoPago\SDK::setAccessToken('APP_USR-334491433003961-030821-12d7475807d694b645722c1946d5ce5a-725736327');
+MercadoPago\SDK::setAccessToken('APP_USR-7351918594883993-050618-31db05f24aeb6dd4d49eb5e2069fe8cd-704217333');
 MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 
