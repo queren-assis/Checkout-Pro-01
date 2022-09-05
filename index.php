@@ -3,7 +3,7 @@
 require __DIR__ .  '/vendor/autoload.php';
 
 // Configura credenciais
-MercadoPago\SDK::setAccessToken('APP_USR-7351918594883993-050618-31db05f24aeb6dd4d49eb5e2069fe8cd-704217333');
+MercadoPago\SDK::setAccessToken('APP_USR-7351918594883993-012012-8d2d61e958eb9a1bddb1e12a1b21f7e3-688984359');
 MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 
@@ -20,7 +20,7 @@ $preference->external_reference = 'Pedido 1';
 
 $preference->payment_methods = array(
 	"excluded_payment_methods" => array(
-	  array("id" => "visa")
+	  array("id" => "paypal")
 	),
 	
 	"installments" => 6
@@ -44,7 +44,7 @@ $preference->save();
 			<script src="https://sdk.mercadopago.com/js/v2"></script>
 			<script>
 				// Adicione as credenciais do SDK
-				const mp = new MercadoPago('APP_USR-50d93348-75fd-499d-b0e1-2dc0a035da86', {
+				const mp = new MercadoPago('APP_USR-0c343325-774f-43f0-8d60-96e92d770422', {
 					locale: 'pt-BR'
 				});
 
