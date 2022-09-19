@@ -26,6 +26,11 @@ $preference->payment_methods = array(
 	"installments" => 6
   );
   // ...
+$preference->back_urls = array(
+	"success" => "https://www.mercadopago.com.br/developers/pt/docs",
+	"failure" => "https://www.mercadopago.com.br/developers/pt/docs",
+	"pending" => "https://www.mercadopago.com.br/developers/pt/docs"
+);
 
 $preference->save();
 // echo $preference->id;
