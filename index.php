@@ -22,6 +22,9 @@ $preference->payment_methods = array(
 	"excluded_payment_methods" => array(
 	  array("id" => "paypal")
 	),
+	"excluded_payment_methods" => array(
+	  array("id" => "credit_card")
+	),
 	
 	"installments" => 6
   );
