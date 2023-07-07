@@ -35,6 +35,11 @@ $preference->back_urls = array(
 	"pending" => "https://www.mercadopago.com.br/developers/pt/docs"
 );
 
+$preference->shipments = array(
+	"cost" => 100, 
+	 "mode" => "not_specified"	
+ );
+
 $preference->save();
 // echo $preference->id;
 ?>
